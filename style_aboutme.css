@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap');
+body{
+    background-color: black;
+
+
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.wrapper {
+    border-radius: 25% 10%;
+    margin-left: 25%;
+    padding-top: 10%;
+    display:grid;
+    grid-template-columns: 20% 20% 20% 10%;
+    grid-template-rows: 50  50px 150px;
+    grid-template-areas:
+            "Home Home Home"
+            "Projects Aboutme Contact"
+            "Main Main Main";
+}
+.item{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 40px;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+
+}
+.item:visited{
+    color:white;
+    text-decoration: none;
+
+}
+.item:link{
+    color:white;
+    text-decoration: none;
+}
+.item-1{
+    grid-area: Main;
+    border-bottom-left-radius: 43px 44px;
+    border-bottom-right-radius: 43px 44px;
+    font-size: 3vh;
+
+
+
+}
+.item-2{
+    grid-area: Projects;
+    border-top-left-radius: 43px 44px;
+    font-size: 3vh;
+
+}
+
+.item-3{
+    grid-area: Aboutme;
+    font-size: 5vh;
+
+}
+
+.item-4{
+    grid-area: Contact;
+    font-size: 3vh;
+
+
+}
+.item-5{
+    grid-area: Home;
+    border-top-right-radius: 43px 44px;
+    justify-self: end;
+    font-size: 3vh;
+
+}
+
+.detail{
+    color:white;
+    text-align: center;
+
+}
+.about{
+    color:white;
+    text-align: left;
+    font-size: 3vh;
+
+}
+.github{
+    color:white;
+}
