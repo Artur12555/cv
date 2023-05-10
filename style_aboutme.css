@@ -15,7 +15,7 @@ a {
     padding-top: 10%;
     display:grid;
     grid-template-columns: 20% 20% 20% 10%;
-    grid-template-rows: 50  50px 150px;
+    grid-template-rows: 3vh  25vh 40vh;
     grid-template-areas:
             "Home Home Home"
             "Projects Aboutme Contact"
@@ -45,7 +45,7 @@ a {
     grid-area: Main;
     border-bottom-left-radius: 43px 44px;
     border-bottom-right-radius: 43px 44px;
-    font-size: 3vh;
+    font-size: 2vw;
 
 
 
@@ -53,19 +53,18 @@ a {
 .item-2{
     grid-area: Projects;
     border-top-left-radius: 43px 44px;
-    font-size: 3vh;
-
+    font-size: 2vw;
 }
 
 .item-3{
     grid-area: Aboutme;
-    font-size: 5vh;
+    font-size: 3vw;
 
 }
 
 .item-4{
     grid-area: Contact;
-    font-size: 3vh;
+    font-size: 2vw;
 
 
 }
@@ -73,7 +72,7 @@ a {
     grid-area: Home;
     border-top-right-radius: 43px 44px;
     justify-self: end;
-    font-size: 3vh;
+    font-size: 2vw;
 
 }
 
@@ -85,7 +84,8 @@ a {
 .about{
     color:white;
     text-align: left;
-    font-size: 3vh;
+    font-size: 2vw;
+    font-size: calc(2vw + 10px);
 
 }
 .github{
